@@ -97,8 +97,29 @@ export default function Login() {
               signup
             </Link>
           </p>
+          <br />
+          <p className="text-2xl">
+            ---------Use the Demo User or
+            Register--------
+          </p>
+          <div className="flex justify-between">
+            <div>
+              <p className="text-4xl">For Admin Login</p>
+              <div>
+                <p>email: rahul@gmail.com</p>
+                <p>password: 12345678</p>
+              </div>
+            </div>
+            <div>
+              <p className="text-4xl">For User Login</p>
+              <div>
+                <p>email: pankaj@gmail.com</p>
+                <p>password: 12345678</p>
+              </div>
+            </div>
+          </div>
         </form>
       </section>
     </Layout>
-  );
+  )
 }
